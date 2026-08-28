@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python in CMD",
+            "type": "process",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "Start-Process cmd.exe -ArgumentList '/k', 'python \"${file}\"'"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
