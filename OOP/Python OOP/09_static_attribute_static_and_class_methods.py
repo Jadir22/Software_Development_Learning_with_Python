@@ -98,7 +98,7 @@ print("--------------------")
 
 # 14. Creating Object with Class Method
 
-student3 = Student.from_string("Nadia-95")
+student3 = Student.from_string("Jadir-95")
 
 student3.show_info()
 
