@@ -3,7 +3,6 @@
 # AND READ-ONLY PROPERTY
 # ==========================================
 
-
 # 1. Student Class
 
 class Student:
@@ -104,7 +103,7 @@ class BankAccount:
             print("Balance cannot be negative")
 
 
-account1 = BankAccount("ACC-101", "Rahim", 5000)
+account1 = BankAccount("ACC-101", "Jadir", 5000)
 
 print("Account Number:", account1.account_number)
 print("Initial Balance:", account1.balance)
