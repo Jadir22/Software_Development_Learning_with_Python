@@ -90,11 +90,7 @@ print("--------------------")
 
 # 7. Creating Truck Object
 
-truck1 = Truck(
-    "Tata Truck",
-    "DHAKA-9012",
-    10
-)
+truck1 = Truck("Tata Truck", "DHAKA-9012", 10)
 
 print("Truck Information")
 truck1.show_truck_info()
